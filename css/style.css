@@ -402,8 +402,8 @@ h5 {
     line-height: 7px;
     color: #525252;
     position: absolute;
-    bottom: 27%;
-    right: 4.7%;
+    bottom: 25%;
+    right: 5.3%;
 }
 
 
@@ -836,7 +836,7 @@ h5 {
 
 .input-setting span {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     color: #858CAB;
 }
@@ -855,12 +855,11 @@ h5 {
 }
 
 .input-email {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 237px;
-    top: 88px;
+    right: 170px;
+    top: 72px;
 }
 
 .images{

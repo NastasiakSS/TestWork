@@ -1,3 +1,159 @@
-@media screen and (max-width: 329px) {
+@media screen and (max-width: 411px) {
+    .image__navbar {
+        left: 10px;
+        position: relative;
+        bottom: 3px;
+    }
 
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo h1 {
+        position: relative;
+        top: 11px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0F2438;
+    }
+
+    .logo p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        color: #0F2438;
+    }
+
+    .logo__title {
+        position: relative;
+        right: 15px;
+    }
+
+    .logo__title p {
+        width: 100px;
+    }
+
+    .work-time, .location {
+        display: none;
+    }
+
+    .no-dropdown {
+        display: none;
+    }
+
+    .whatsapp_title {
+        text-align: center;
+    }
+
+    .button-settings {
+        display: none;
+    }
+
+    .catalog__button {
+        padding-left: 0;
+    }
+
+    .icons-setting {
+        padding-left: 0;
+        display: block;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+
+    .box-image {
+        justify-content: space-around;
+        display: flex;
+        width: auto;
+        align-items: center;
+    }
+
+    .carousel-items-setting {
+        width: 353px;
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        position: static;
+
+    }
+
+    .boxes-setting {
+        padding-top: 90%;
+        flex-direction: column;
+        width: 250px;
+        display: flex;
+    }
+
+    .user-icon, .heart-icon, .cart-icon {
+        display: none;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        padding-left: 35px;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info a {
+        font-size: 12px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contacts-title {
+        padding-left: 12px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .second-contacts-title {
+        padding-left: 12px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-form {
+        display: flex;
+        align-items: center;
+        position: static;
+    }
+
+    .input-setting span {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #858CAB;
+    }
+
+}
+
+.input-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
