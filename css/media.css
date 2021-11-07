@@ -68,6 +68,10 @@
     }
 
     .box-image {
+        margin-top: 10px;
+        border: 1px solid silver;
+        border-radius: 4px;
+        padding-left:12px;
         justify-content: space-around;
         display: flex;
         width: auto;

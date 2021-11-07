@@ -374,6 +374,11 @@ h5 {
     right: 4.7%;
 }
 
+.box-item {
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
 .box-item strong {
     font-weight: bold;
     font-size: 20px;
@@ -464,7 +469,19 @@ h5 {
     border: none;
 }
 
+.second-box-image {
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    padding-left: 12px;
+    width: 453px;
+    justify-content: space-around;
+    display: flex;
+}
 .box-image {
+    border: 1px solid silver;
+    border-radius: 4px;
+    padding-left:12px;
     width: 453px;
     justify-content: space-around;
     display: flex;
@@ -862,7 +879,7 @@ h5 {
     top: 72px;
 }
 
-.images{
+.images {
     position: relative;
     left: 36em;
     display: flex;
